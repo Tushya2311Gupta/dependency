@@ -1,4 +1,16 @@
 {
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"test successful\""
+  },
+  "author": "",
+  "license": "ISC"
+}
+{
   "dependencies": {
     "body-parser": "^2.2.2",
     "eslint": "^10.2.1",
