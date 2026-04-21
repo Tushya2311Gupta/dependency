@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"test successfull\" && exit 0"
+    "test": "echo \"test successfull\" && exit 1"
   },
   "author": "",
   "license": "ISC",
