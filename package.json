@@ -8,9 +8,9 @@
     "test": "echo \"test successful\""
   },
   "author": "",
-  "license": "ISC"
-}
-{
+  "license": "ISC",
+
+
   "dependencies": {
     "body-parser": "^2.2.2",
     "eslint": "^10.2.1",
