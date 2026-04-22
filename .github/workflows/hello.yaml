@@ -17,8 +17,12 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm i
+      - name: Run linting
+        run:  npx eslint .
+      - name: Run build
+        run:  npm run build
       - name: Run tests
-        run: npm test
+        run:  npm test
   deploy_app:
     runs-on: ubuntu-latest
     needs: build

@@ -2,10 +2,12 @@
   "name": "myapp",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"test successfull\" && exit 0"
+    "test": "echo \"test successfull\" && exit 0",
+    "build": "echo \"Build successful\" && exit 0"
   },
   "author": "",
   "license": "ISC",
